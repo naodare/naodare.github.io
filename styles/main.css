@@ -1,0 +1,194 @@
+/*====================
+Global Styles
+====================*/
+.theme-wrapper {
+	width: 1632px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Inter, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #faf6f6;
+	background:#060609;
+}
+
+a {
+	color: #faf6f6;;
+	text-decoration: none;
+}
+
+.is-flex {
+	display: flex;
+}
+
+.is-flex-half {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+
+.is-flex-third {
+	flex-basis: 33.3333%;
+	max width: 33.3333%;
+}
+
+.section-head .main-head {
+	font-size: 70px;
+	font-weight: 500;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.section-head .sub-head {
+	font-size: 45px;
+	font-weight: 500;
+	color: #808080;
+	margin-bottom: 40px;
+}
+
+.info {
+	font-size: 22px;
+	font-weight: inherit;
+	line-height: 1.35;
+	flex-basis: 52%;
+	max-width: 52%;
+	color: #808080;
+}
+
+.info p {
+	margin-bottom: 20px;
+}
+
+.info-2 {
+	font-size: 30px;
+	font-weight: inherit;
+	line-height: 1.35;
+	flex-basis: 30%;
+	max-width: 30%;
+	margin: 40px 9% 0 9%;
+}
+
+section {
+	padding-bottom: 120px;
+	border-bottom: 1px solid #808080;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*====================
+Header
+====================*/
+.header {
+	font-size: 20px;
+	padding: 20px 2px;
+	border-bottom: 1px solid #808080;
+}
+
+.gn ul {
+	text-align: right;
+}
+
+.gn li {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+/*====================
+Banner (bnr)
+====================*/
+.bnr	{
+	height: 60vh;
+	margin-top: 400px;
+}
+
+.bnr h1 {
+	font-weight: 500;
+	font-size: 120px;
+	margin-bottom: 70px;
+}
+
+.bnr li {
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	color: #808080;
+}
+
+/*====================
+Projects (Portfolio)
+====================*/
+.grid .lrg-col-l {
+	flex-basis: 1061px;
+	max-width: 1061px;
+	margin-right: 81px;
+}
+
+.grid .lrg-col-r {
+	flex-basis: 1061px;
+	max-width: 1061px;
+	margin-left: 81px;
+}
+
+.grid .sml-col {
+	flex-basis: 490px;
+	max-width: 490px;
+}
+
+.grid li {
+	margin-bottom: 81px;
+}
+
+/*====================
+About
+====================*/
+.resume-head {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #808080;
+}
+
+.resume-item li {
+	font-size: 22px;
+	color: #808080;
+	margin-top: 40px;
+}
+
+/*====================
+Contact
+====================*/
+.contact .info-2 {
+	margin-top: 0px;
+}
+
+.contact .info-2 a {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #faf6f6;
+}
+
+/*====================
+Footer (ftr)
+====================*/
+.ftr {
+	font-size: 20px;
+	padding: 20px 2px;
+	align-items: center;
+}
+
+.credit {
+	font-size: 14px;
+	text-align: center;
+}
+
+.socials li {
+	display: inline-block;
+	width: 35px;
+	margin-left: 30px;
+}
+
+.socials {
+	text-align: right;
+}
