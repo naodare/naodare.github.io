@@ -1,0 +1,193 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px;
+  position: relative;
+  background-color: var(--variable-collection-warm-white);
+}
+
+.home-page .navigation {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--variable-collection-cool-black);
+}
+
+.home-page .logo {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--h3-font-family);
+  font-weight: var(--h3-font-weight);
+  color: #18181c;
+  font-size: var(--h3-font-size);
+  text-align: center;
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  font-style: var(--h3-font-style);
+}
+
+.home-page .work-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.home-page .project {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 60px 0px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #18181c;
+}
+
+.home-page .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 30%;
+}
+
+.home-page .nao-dare-browns {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.33;
+  object-fit: cover;
+}
+
+.home-page .div {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 40px 0px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home-page .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--h4-font-family);
+  font-weight: var(--h4-font-weight);
+  color: #18181c;
+  font-size: var(--h4-font-size);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: var(--h4-line-height);
+  font-style: var(--h4-font-style);
+}
+
+.home-page .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--h5-font-family);
+  font-weight: var(--h5-font-weight);
+  color: #18181c;
+  font-size: var(--h5-font-size);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  font-style: var(--h5-font-style);
+}
+
+.home-page .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.52;
+}
+
+.home-page .EVCC-WIP-brand-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 40px 0px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home-page .EVCC-WIP-brand {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Funnel Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .span {
+  color: #18181c;
+}
+
+.home-page .text-wrapper-3 {
+  color: #18181c;
+  font-size: var(--h5-font-size);
+  font-family: var(--h5-font-family);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+}
+
+.home-page .website-banner {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 1.9;
+  object-fit: cover;
+}
+
+.home-page .div-wrapper {
+  padding: 0px 40px 0px 0px;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home-page .div-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Funnel Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
