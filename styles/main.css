@@ -155,7 +155,6 @@ img {
 */
 
 .work {
-	margin-top: 51px;
 }
 
 .work ul {
@@ -164,6 +163,9 @@ img {
 
 .work li {
 	border-bottom: 1px solid #18181C;
+	border-top: 1px solid #18181C;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .work li img {
@@ -187,6 +189,7 @@ img {
 	flex: 0 0 75%;
 	max-width: 75%;
 	overflow: hidden;
+	border-right: 1px solid #18181C;
 }
 
 .text-col {
