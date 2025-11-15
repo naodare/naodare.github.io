@@ -155,6 +155,7 @@ img {
 */
 
 .work {
+	margin-top: 50px;
 }
 
 .work ul {
@@ -164,8 +165,7 @@ img {
 .work li {
 	border-bottom: 1px solid #18181C;
 	border-top: 1px solid #18181C;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .work li img {
